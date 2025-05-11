@@ -4,6 +4,8 @@ from utime import sleep_ms
 
 import network, ssd1306, esp32, _thread, time, utime
 
+# GPS Module
+
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 networks = wlan.scan()
