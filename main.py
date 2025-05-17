@@ -4,7 +4,7 @@ from utime import sleep_ms
 
 import network, ssd1306, esp32, _thread, time, utime
 
-# GPS Module
+# GPS Tracker Module
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
@@ -94,7 +94,7 @@ def getGPSInfo(gpsModule):
         if (time.time() > timeout):
             TIMEOUT = True
             break
-        utime.sleep_ms(500)
+        utime.sleep_ms(2500) # 500
         
 def convertToDegree(RawDegrees):
 
@@ -151,7 +151,7 @@ def main():
     oled.pixel(1, 31, 1)
     oled.text("GPS Tracker", 0, 12, 1)
     oled.show()
-    sleep_ms(1000)
+    sleep_ms(5000) # 1000
     oled.fill(0)
     oled.show()
     
