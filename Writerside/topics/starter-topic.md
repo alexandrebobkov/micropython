@@ -13,7 +13,7 @@ You can create empty topics, or choose a template for different types of content
 When you create a new help article, you can choose between two topic types, but this doesn't mean you have to stick to a single format.
 You can author content in Markdown and extend it with semantic attributes or inject entire XML elements.
 
-## Inject XML
+## Overview and Specifications
 For example, this is how you inject a procedure:
 
 <procedure title="Inject a procedure" id="inject-a-procedure">
