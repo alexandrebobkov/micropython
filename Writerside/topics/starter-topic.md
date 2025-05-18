@@ -39,6 +39,11 @@ To add switchable content, you can make use of tabs (inject them by starting to 
         <code-block lang="xml">
             <![CDATA[<img src="new_topic_options.png" alt="Alt text" width="450px"/>]]></code-block>
     </tab>
+    <tab title="Python syntaxis highlight">
+        <code-block lang="python">
+            if __name__ == '__main__':
+        </code-block>
+    </tab>
 </tabs>
 
 ### Collapsible blocks

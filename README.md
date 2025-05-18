@@ -1,2 +1,2 @@
-# ESP32 MicroPython Programs
-ESP32 Microcontroller 
+# ESP32 MicroPython
+ESP32 Microcontroller Series
