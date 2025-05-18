@@ -1,3 +1,7 @@
+# Obtains location coordinates from GPS module and displays them on the OLED display
+# Alexander B.
+
+
 from machine import Pin, SoftI2C, UART
 from machine import Timer
 from utime import sleep_ms
