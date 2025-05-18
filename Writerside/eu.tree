@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="eu"
-                 name="ESP32-S3 Uno"
+                 name="ESP32-S3 Uno DevBoard"
                  start-page="starter-topic.md">
 
     <toc-element topic="starter-topic.md"/>

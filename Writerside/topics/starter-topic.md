@@ -1,92 +1,71 @@
-# About ESP32-S3 Uno Development Board
+# ESP32-S3 Uno Development Board
 
 <!--Writerside adds this topic when you create a new documentation project.
 You can use it as a sandbox to play with Writerside features, and remove it from the TOC when you don't need it anymore.-->
 
-## Add new topics
-You can create empty topics, or choose a template for different types of content that contains some boilerplate structure to help you get started:
+_Discover new opportunities with the ESP32-S3 UNO Development Board._
 
-![Create new topic options](new_topic_options.png){ width=290 }{border-effect=line}
+Unlock a world of innovative possibilities with the ESP32-S3 UNO Development Board. This versatile platform empowers developers to create cutting-edge applications, leveraging its advanced features and robust performance. Whether you're working on IoT projects, embedded systems, or automation tasks, the ESP32-S3 UNO Development Board offers the flexibility, power and quick implementation needed to bring your ideas to life.
 
-## Write content
-%product% supports two types of markup: Markdown and XML.
-When you create a new help article, you can choose between two topic types, but this doesn't mean you have to stick to a single format.
-You can author content in Markdown and extend it with semantic attributes or inject entire XML elements.
+Explore its capabilities and push the boundaries of your creativity and technical expertise.
 
 ## Overview and Specifications
 
 <tabs>
     <tab title="ESP32-S3 Specs">
-        3.3V logic
+        <p>
+        <b>Microprocessor:</b><br/>
+            Xtensa® dual-core 32-bit LX7 microprocessor, operating up to 240 MHz.<br/>
+        <b>Connectivity:</b><br/>
+            <i>Wi-Fi: </i> 802.11 b/g/n up to 150 Mbps, 2412 ~ 2484 MHz <br/>
+            <i>Bluetooth: </i> Bluetooth 5, Bluetooth mesh, 125 Kbps, 500 Kbps, 1 Mbps, 2 Mbps
+        </p>
+        <p>
+        <b>Memory:</b><br/>
+            384 KB ROM
+            512 KB SRAM
+            16 KB SRAM in RTC
+            Up to 16 MB PSRAM
+        </p>
+    </tab>
+    <tab title="Pins and GPIOs">
+        <list>
+        <li>+3V3</li>
+        <li>GND</li>
+        <li>SDA</li>
+        <li>SCL</li>
+        <li>USB Data +</li>
+        <li>USB Data -</li>
+        </list>
     </tab>
     <tab title="Features">
-        I2C, I2S
+        Connectivity:
+            Wi-Fi and Bluetooth
     </tab>
-    <tab title="Schematics">
-        <img src="ESP32-Uno-assembled.jpg" alt="ESP32-S3 Uno DevBoard"/>
+    <tab title="PCB">
+        <img src="ESP32-Uno-assembled.jpg" alt="ESP32-S3 Uno DevBoard" width="350" />
     </tab>
 </tabs>
 
-
-For example, this is how you inject a procedure:
-
-<procedure title="Inject a procedure" id="inject-a-procedure">
-    <step>
-        <p>Start typing and select a procedure type from the completion suggestions:</p>
-        <img src="completion_procedure.png" alt="completion suggestions for procedure" border-effect="line"/>
-    </step>
-    <step>
-        <p>Press <shortcut>Tab</shortcut> or <shortcut>Enter</shortcut> to insert the markup.</p>
-    </step>
-</procedure>
-
-## Add interactive elements
-
-### Tabs
-To add switchable content, you can make use of tabs (inject them by starting to type `tab` on a new line):
+## Application Examples
 
 <tabs>
-    <tab title="Markdown">
-        <code-block lang="plain text">![Alt Text](new_topic_options.png){ width=450 }</code-block>
+    <tab title="LED blinky">
+        <code-block lang="python">
+            if __name__ == '__main__':
+        </code-block>
     </tab>
-    <tab title="Semantic markup">
-        <code-block lang="xml">
-            <![CDATA[<img src="new_topic_options.png" alt="Alt text" width="450px"/>]]></code-block>
-    </tab>
-    <tab title="Python syntaxis highlight">
+    <tab title="I2C">
         <code-block lang="python">
             if __name__ == '__main__':
         </code-block>
     </tab>
 </tabs>
 
-### Collapsible blocks
-Apart from injecting entire XML elements, you can use attributes to configure the behavior of certain elements.
-For example, you can collapse a chapter that contains non-essential information:
-
 #### Supplementary info {collapsible="true"}
 Content under a collapsible header will be collapsed by default,
 but you can modify the behavior by adding the following attribute:
 `default-state="expanded"`
-
-### Convert selection to XML
-If you need to extend an element with more functions, you can convert selected content from Markdown to semantic markup.
-For example, if you want to merge cells in a table, it's much easier to convert it to XML than do this in Markdown.
-Position the caret anywhere in the table and press <shortcut>Alt+Enter</shortcut>:
-
-<img src="convert_table_to_xml.png" alt="Convert table to XML" width="706" border-effect="line"/>
-
-## Feedback and support
-Please report any issues, usability improvements, or feature requests to our
-<a href="https://youtrack.jetbrains.com/newIssue?project=WRS">YouTrack project</a>
-(you will need to register).
-
-You are welcome to join our
-<a href="https://jb.gg/WRS_Slack">public Slack workspace</a>.
-Before you do, please read our [Code of conduct](https://www.jetbrains.com/help/writerside/writerside-code-of-conduct.html).
-We assume that you’ve read and acknowledged it before joining.
-
-You can also always email us at [writerside@jetbrains.com](mailto:writerside@jetbrains.com).
 
 #### Credits:
 
