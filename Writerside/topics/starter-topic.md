@@ -14,6 +14,20 @@ When you create a new help article, you can choose between two topic types, but 
 You can author content in Markdown and extend it with semantic attributes or inject entire XML elements.
 
 ## Overview and Specifications
+
+<tabs>
+    <tab title="ESP32-S3 Specs">
+        3.3V logic
+    </tab>
+    <tab title="Features">
+        I2C, I2S
+    </tab>
+    <tab title="Schematics">
+        <img src="ESP32-Uno-assembled.jpg" alt="ESP32-S3 Uno DevBoard"/>
+    </tab>
+</tabs>
+
+
 For example, this is how you inject a procedure:
 
 <procedure title="Inject a procedure" id="inject-a-procedure">
